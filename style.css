@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1675435646793-f6ceb239b064?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.logo img{
+    margin-top: -10%;
+    margin-left: 5%;
+}
+
+.items{
+    display: flex;
+    gap: 50px;
+    margin-left: 55%;
+    margin-top: 0.7%;
+}
+
+.items >a{
+    text-decoration: none;
+    color: white;
+}
+
+.items >a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.sib{
+    padding: 10px 18px;
+    border-radius: 10%;
+    background-color: rgba(128, 128, 128, 0.753);
+    color: white;
+    margin-top: -0.2%;
+}
+
+.ri-menu-fill{
+    display: none;
+}
+
+.sib:hover{
+    background-color: #D39D55;
+    color: black;
+}
+
+h1{
+    font-family: montserrat;
+    font-size: 50px;
+    margin-top: 4%;
+    margin-left: 12%;
+    color: whitesmoke;
+}
+
+h2{
+    font-family: montserrat;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-left: 12%;
+    color: whitesmoke;
+}
+
+p{
+    font-family: montserrat;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 12%;
+    color: whitesmoke;
+}
+
+
+.em{
+    padding: 10px 18px;
+    border-radius: 10%;
+    background-color: rgba(128, 128, 128, 0.753);
+    color: white;
+    margin-top: 2%;
+    margin-left: 12%;
+}
+
+.em:hover{
+    background-color: #D39D55;
+    color: black;
+}
+
+
+.boximage{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+
+.boximage img{
+    height: 150px;
+    width: 200px;
+    border: 2px solid rgb(221, 216, 216);
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px black;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+.boximage img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+.page2{
+    height: 68%;
+    width: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1675435646793-f6ceb239b064?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    display: none;
+}

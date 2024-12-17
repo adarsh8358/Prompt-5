@@ -1,0 +1,49 @@
+@media (max-width:600px) {
+
+    .ri-menu-fill{
+        display: block;
+        margin-right: 3%;
+        margin-top: 5%;
+    }
+    
+    .items{
+        display: none;
+    }
+
+    .sib{
+        display: none;
+    }
+
+    .boximage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -1%;
+        margin-top: 20%;
+    }
+
+    .page2{
+        display: block;
+    }
+
+    h1{
+        margin-top: 20%;
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 15px;
+        margin-top: 3%;
+    }
+
+    p{
+        font-size: 10px;
+        margin-top: 5%;
+    }
+
+    .em{
+        padding: 5px 8px;
+        margin-top: 15%;
+    }
+}
